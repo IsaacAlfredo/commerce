@@ -1,7 +1,12 @@
 import { useState } from "react";
+import NavBar from "../../components/NavBar/NavBar";
 
 function About() {
-  return <></>;
+  return (
+    <>
+      <NavBar />
+    </>
+  );
 }
 
 export default About;
