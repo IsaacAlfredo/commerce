@@ -1,0 +1,8 @@
+.CategoryNav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  border: 2px solid red;
+}
