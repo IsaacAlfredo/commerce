@@ -1,7 +1,7 @@
 import { useState } from "react";
-import "./App.css";
 import NavBar from "../../components/NavBar/NavBar";
-function App() {
+
+function Contact() {
   return (
     <>
       <NavBar />
@@ -9,4 +9,4 @@ function App() {
   );
 }
 
-export default App;
+export default Contact;
