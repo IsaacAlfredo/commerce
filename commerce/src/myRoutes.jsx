@@ -9,6 +9,9 @@ export function MyRoutes() {
       <Route element={<App />} path="/" exact></Route>
       <Route element={<About />} path="/about"></Route>
       <Route element={<Contact />} path="/contact"></Route>
+      <Route element={<Mobile />} path="/catalog/mobile"></Route>
+      <Route element={<Desktop />} path="/catalog/desktop"></Route>
+      <Route element={<Notebook />} path="/catalog/notebook"></Route>
     </Routes>
   );
 }
