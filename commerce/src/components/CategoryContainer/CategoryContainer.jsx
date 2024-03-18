@@ -2,11 +2,11 @@ import CategoryNav from "../CategoryNav/CategoryNav";
 import ItemList from "../ItemList/ItemList";
 import "./CategoryContainer.css";
 
-function CategoryContainer() {
+function CategoryContainer({ data }) {
   return (
     <div className="CategoryContainer">
       <CategoryNav />
-      <ItemList />
+      <ItemList data={data} />
     </div>
   );
 }
