@@ -1,0 +1,7 @@
+.CategoryContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  margin-top: 50px;
+}

@@ -3,7 +3,7 @@ import "./CategoryNav.css";
 
 function CategoryNav() {
   return (
-    <>
+    <div className="Category">
       <h3>Categorias</h3>
       <nav className="CategoryNav">
         <Link to="/catalog/mobile" className="CategoryNavLink">
@@ -16,7 +16,7 @@ function CategoryNav() {
           Notebook
         </Link>
       </nav>
-    </>
+    </div>
   );
 }
 
