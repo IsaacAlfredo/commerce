@@ -1,14 +1,13 @@
 import { useState } from "react";
 import "./App.css";
 import NavBar from "../../components/NavBar/NavBar";
-import CategoryNav from "../../components/CategoryNav/CategoryNav";
-import ItemCard from "../../components/ItemCard/ItemCard";
+import CategoryContainer from "../../components/CategoryContainer/CategoryContainer";
+
 function App() {
   return (
     <>
       <NavBar />
-      <CategoryNav />
-      <ItemCard />
+      <CategoryContainer />
     </>
   );
 }

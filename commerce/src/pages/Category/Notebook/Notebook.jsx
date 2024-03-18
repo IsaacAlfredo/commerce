@@ -1,11 +1,11 @@
-import CategoryNav from "../../../components/CategoryNav/CategoryNav";
+import CategoryContainer from "../../../components/CategoryContainer/CategoryContainer";
 import NavBar from "../../../components/NavBar/NavBar";
 
 function Notebook() {
   return (
     <>
       <NavBar />
-      <CategoryNav />
+      <CategoryContainer />
     </>
   );
 }
