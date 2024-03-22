@@ -2,15 +2,22 @@ import "./BuyForm.css";
 import { useForm } from "react-hook-form";
 import axios from "axios";
 
-function BuyForm() {
+function BuyForm({ itemData }) {
   const { register, handleSubmit } = useForm();
 
   async function onSubmit(formData) {
-    const route = "http://localhost:8000/api/orders/new";
     formData = { ...formData, user_id: 1 };
     console.log(formData);
     try {
-      await axios.post(route, formData);
+      const ordersResponse = await axios.post(
+        "http://localhost:8000/api/orders/new",
+        formData
+      );
+      console.log(ordersResponse);
+      await axios.post("http://localhost:8000/api/productOrders/new", {
+        product_id: itemData.id,
+        order_id: ordersResponse.data.id,
+      });
     } catch (e) {
       console.log(e);
     }
