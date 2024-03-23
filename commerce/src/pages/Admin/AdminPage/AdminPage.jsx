@@ -1,7 +1,7 @@
-import { useState } from "react";
+import OrderList from "../../../components/OrderList/OrderList";
 
 function AdminPage() {
-  return <></>;
+  return <OrderList />;
 }
 
 export default AdminPage;

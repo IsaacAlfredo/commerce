@@ -1,0 +1,9 @@
+.OrderList {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  width: 1300px;
+
+  border: 2px solid green;
+}
