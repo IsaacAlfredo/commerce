@@ -1,62 +1,32 @@
-
 .login-container {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: white;
-    color: rgb(0, 0, 0);
-    font-size: 20px; /* Tamanho da fonte */
-    font-family: 'DM Sans', sans-serif; /* Aplicar a fonte DM Sans a todos os elementos dentro do .login-container */
-  }
-  
-  .login-container h2 {
-    position: absolute; /* Define a posição absoluta para o título */
-    width: 455px; /* Largura do título */
-    height: 82px; /* Altura do título */
-    left: 740px; /* Posição X do título */
-    top: 165px; /* Posição Y do título */
-    font-size: 40px; /* Tamanho da fonte */
-    color: black; /* Título preto */
-  }
-  
-  .login-container form {
-    width: 300px;
-    
-  }
-  
-  .login-container label {
-    margin-bottom: 8px;
-    
-  }
-  
-  .login-container input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 50px;
-    border: 2px solid black;
-    background-color: white;
-    color: black;
-  }
-  
-  .login-container input:focus {
-    outline: none;
-    border-color: rgb(0, 0, 0);
-    
-  }
-  
-  .login-container button {
-    padding: 10px 30px;
-    background-color: black;
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-size: 15px; /* Tamanho da fonte */
-  }
-  
-  .login-container button:hover {
-    background-color: #333;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: aliceblue;
+  font-size: 20px; /* Tamanho da fonte */
+  font-family: "DM Sans", sans-serif; /* Aplicar a fonte DM Sans a todos os elementos dentro do .login-container */
+}
+
+.login-container form {
+  width: 300px;
+}
+
+.login-container label {
+  margin-bottom: 8px;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 50px;
+  border: 2px solid aliceblue;
+  background-color: white;
+  color: black;
+}
+
+.login-container input:focus {
+  outline: none;
+  border-color: aliceblue;
+}
